@@ -1,8 +1,9 @@
-import React from 'react';
+// @flow
+import React, { PropTypes } from 'react';
 
-const Starter = () => (
+const Starter = ({ title }: { title: string }) => (
   <div>
-    <h1>React Component Boilerplate</h1>
+    <h1>{title}</h1>
   </div>
 );
 

@@ -1,10 +1,11 @@
+// @flow
 import React from 'react';
 
 import Starter from '../../src';
 
 const App = () => (
   <div>
-    <Starter />
+    <Starter title="React Component Boilerplate, with Flow!" />
   </div>
 );
 
